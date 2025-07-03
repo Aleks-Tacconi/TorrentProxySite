@@ -1,0 +1,28 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Aleksander Tacconi"}
+]
+readme = "README.md"
+requires-python = ">=3.9,<4.0"
+dependencies = [
+    "pylint",
+    "flask",
+    "requests",
+    "beautifulsoup4",
+    "tmdbsimple",
+    "dotenv",
+    "flask-cors (>=6.0.1,<7.0.0)",
+    "bencodepy (>=0.9.5,<0.10.0)",
+    "rapidfuzz (>=3.13.0,<4.0.0)",
+    "internetarchive (>=5.4.0,<6.0.0)",
+    "flask-jwt-extended (>=4.7.1,<5.0.0)",
+    "subliminal (>=2.3.2,<3.0.0)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

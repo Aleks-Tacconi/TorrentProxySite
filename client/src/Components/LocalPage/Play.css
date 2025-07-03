@@ -1,0 +1,18 @@
+.video-container {
+    position: absolute;
+    background: black;
+    width: 100%;
+    height: calc(100% - 60px);
+    display: flex;
+    padding: 0 2vw; 
+    justify-content: center;
+    align-items: center;
+}
+
+.video-player {
+    max-width: 100%;
+    max-height: calc(100vh - 60px);
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+}

@@ -1,0 +1,47 @@
+.topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color: #f00;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    z-index: 1000;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.left .logo {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 22px;
+    margin-right: 60px;
+    margin-left: 30px;
+    font-weight: bold;
+    color: white;
+    transform: scaleX(1.2);
+}
+
+
+.left .logo:hover {
+    transform: scaleX(1.2);
+}
+
+.left a {
+    margin-right: 40px;
+    color: #ddd;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.4s ease;
+}
+
+.left a:hover {
+    color: white;
+    transform: scale(1.06);
+}
